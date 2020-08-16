@@ -64,5 +64,6 @@ def main_handler(event, context):
         send_log(USERNAME[:9], message)  # 可选,上传日志,帮助开发者优化程序:D
 
 
+# 查看更多帮助 前往 https://github.com/117503445/xducheckin
 if __name__ == "__main__":
     main_handler(None, None)
